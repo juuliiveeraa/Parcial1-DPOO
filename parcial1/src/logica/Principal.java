@@ -1,4 +1,5 @@
 package logica;
+//Sé que debía ser en una carpeta/paquete distinto llamado package, pero al hacer eso me pedía importar logic.//
 
 public class Principal {
 
