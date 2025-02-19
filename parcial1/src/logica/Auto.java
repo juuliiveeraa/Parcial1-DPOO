@@ -8,7 +8,7 @@ public class Auto extends Vehiculo{
 
 	@Override
 	public double autonomia() {
-		return (15* Math.pow(10, 4)) / (this.cilindraje + this.peso) * this.tanque;
+		return ((15* Math.pow(10, 4)) / (this.cilindraje + this.peso)) * this.tanque;
 	}
 
 }

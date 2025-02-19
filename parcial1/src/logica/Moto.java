@@ -8,7 +8,7 @@ public class Moto extends Vehiculo {
 
 	@Override
 	public double autonomia() {
-		return (8* Math.pow(10, 4)) / (this.cilindraje + 2 * this.peso) * this.tanque;
+		return ((8* Math.pow(10, 4)) / (this.cilindraje + 2 * this.peso)) * this.tanque;
 	}
 
 }
